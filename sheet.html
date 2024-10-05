@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Sheet Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="operations">
+            <h1>Operations Panel</h1>
+            <label for="sheet-select">Choose a Sheet:</label>
+            <select id="sheet-select"></select>
+            <button id="load-sheet">Load Sheet</button>
+        </div>
+        <div id="sheet-content" class="sheet-content"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+        <script src="sheet.js"></script>
+    </div>
+</body>
+</html>
